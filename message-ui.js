@@ -1,6 +1,7 @@
 //focus the form on page load
 document.querySelector("textarea").focus()
 
+//finds elements on page
 const thread = document.querySelector("main")
 const msgForm = document.querySelector("form")
 
@@ -42,4 +43,9 @@ function clearForm(evt) {
 
 msgForm.addEventListener("submit", clearForm)
 
-
+/*Whenever you complet a feature:
+1. cd into message-app
+2. in the command line put git add --all
+3. Then git commit -m "Put a descriptive message about your app here"
+4. Then git push
+*/
