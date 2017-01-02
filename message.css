@@ -1,0 +1,21 @@
+main h1{
+    color: green;
+    text-align: center;
+}
+article {
+}
+
+article p {
+        font-size: large;
+        color: blue;
+        
+    }
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+.author,
+.date-created {
+    font-size: small;
+}
