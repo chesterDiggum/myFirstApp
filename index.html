@@ -7,18 +7,27 @@
     </head>
     <body>
         <main>
-            <h1>Thread</h1>
-            <form>
+<!--This is the messaging container. Each message will be in a separate article-->
+          
+            
+        </main>
+        
+<!--the "send message" form will be displayed at the below the messaging container, "main"-->        
+          <form>
                 <label>Message</label>
                 <textarea placeholder="say something brilliant"></textarea>
                 <label></label>
                 <label>Your Name</label>
                 <input type="text" placeholder="<name></name>">
-                <button>Add The Message</button>    
+                <button>Send</button> 
+                <input type="checkbox" name="enter-to-send">
+                <label>Enter to Send</label>
             </form>
-            
-        </main>
     <script src="message.js"></script>    
     <script src="message-ui.js"></script>
+   <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
     </body>
 </html>

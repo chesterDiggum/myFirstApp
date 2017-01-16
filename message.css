@@ -3,13 +3,14 @@ main h1{
     text-align: center;
 }
 article {
+    width: 100%;
 }
 
-article p {
-        font-size: large;
-        color: blue;
-        
-    }
+    article p {
+            font-size: large;
+            color: blue;
+            
+        }
 
 div {
     display: flex;
@@ -18,4 +19,11 @@ div {
 .author,
 .date-created {
     font-size: small;
+}
+
+main {
+    background-color: rgba(0, 0, 0, .25);
+    margin: 0 2.5rem;
+    height: 75%;
+    overflow: scroll;
 }
