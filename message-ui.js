@@ -61,5 +61,3 @@ function sendOnEnter(event){
 $("[name='enter-to-send']").change(function(){
      $(this).keypress(sendOnEnter)
 })
-//add event listener 
-
